@@ -17,16 +17,16 @@ import { DemoMaterialModule} from './demo-material-module';
 
 import { SharedModule } from './shared/shared.module';
 import { SpinnerComponent } from './shared/spinner.component';
-import { InlineComponent } from './rms-sparklines/rsm-sparklines/inline/inline.component';
+import { InlineComponent } from './rms-sparklines/inline/inline.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    FullComponent,
-    AppHeaderComponent,
-    SpinnerComponent,
-    AppSidebarComponent,
-    InlineComponent
+  AppComponent,
+  FullComponent,
+  AppHeaderComponent,
+  SpinnerComponent,
+  AppSidebarComponent,
+  InlineComponent
   ],
   imports: [
     BrowserModule,
