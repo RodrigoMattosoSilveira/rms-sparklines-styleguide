@@ -12,7 +12,7 @@ export class AppComponent {
         {
             name: 'Home',
             icon: 'home',
-            href: '/'
+            href: ''
         }
     ];
 
@@ -20,22 +20,22 @@ export class AppComponent {
         {
             name: 'Dog Search',
             icon: 'search',
-            href: '/runner-search'
+            href: 'sparkline-line'
         },
         {
             name: 'Meeting Search',
             icon: 'search',
-            href: '/meeting-search'
+            href: 'home'
         },
         {
             name: 'Owner Search',
             icon: 'search',
-            href: '/owner-search'
+            href: ''
         },
         {
             name: 'Trainer Search',
             icon: 'search',
-            href: '/trainer-search'
+            href: 'sparkline-line'
         }
     ];
 
@@ -43,7 +43,7 @@ export class AppComponent {
         {
             name: 'New Meeting',
             icon: 'create',
-            href: '/new-meeting'
+            href: ''
         }
     ];
 }

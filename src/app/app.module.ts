@@ -1,8 +1,9 @@
 import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
 import { BrowserModule } from '@angular/platform-browser';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
-import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import {RouterModule} from '@angular/router';
 
 import {
     MatAutocompleteModule,
@@ -84,12 +85,14 @@ import {CdkTableModule} from '@angular/cdk/table';
 import { AppComponent } from './app.component';
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
 import { SparklineLineComponent } from './components/sparkline-line/sparkline-line.component';
+import {AppRoutingModule} from './app-roouting.module';
 
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
+      AppRoutingModule,
       BrowserModule,
       BrowserAnimationsModule,
       FormsModule,
@@ -98,7 +101,7 @@ import { SparklineLineComponent } from './components/sparkline-line/sparkline-li
       DemoMaterialModule,
       MatNativeDateModule,
       ReactiveFormsModule,
-  ],
+   ],
     providers: [],
   bootstrap: [AppComponent]
 })
