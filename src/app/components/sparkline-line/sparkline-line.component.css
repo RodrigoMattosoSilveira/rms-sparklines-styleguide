@@ -1,19 +1,4 @@
-.toolbar-spacer {
-    flex: 1 1 auto;
-}
 
-mat-card {
-    margin: 16px 16px 0px 16px;
-}
-
-.example-card {
-    max-width: 400px;
-}
-
-.example-header-image {
-    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
-    background-size: cover;
-}
 
 
 
