@@ -5,29 +5,35 @@
 </mat-toolbar>
 
 <mat-sidenav-container class="sidenav-container">
-  <mat-sidenav mode="side" opened="true">
-    <mat-nav-list>
-      <mat-list-item *ngFor="let nav of navItems">
-        <mat-icon mat-list-icon>{{nav.icon}}</mat-icon>
-        <h4 mat-line><a mat-raised-button routerLink={{nav.href}}>{{nav.name}}</a></h4>
-      </mat-list-item>
-      <mat-divider></mat-divider>
-      <h3 matSubheader>Create</h3>
-      <mat-list-item *ngFor="let create of creating">
-        <!-- mat-icon mat-list-icon>{{create.icon}}</mat-icon -->
-        <h4 mat-line>{{create.name}}</h4>
-        <h4 mat-line><a mat-raised-button routerLink={{create.href}}>{{create.name}}</a></h4>
-      </mat-list-item>
-      <mat-divider></mat-divider>
-      <h3 matSubheader>Search</h3>
-      <mat-list-item *ngFor="let search of searches">
-        <!-- mat-icon mat-list-icon>{{search.icon}}</mat-icon -->
-        <h4 mat-line><a mat-raised-button routerLink={{search.href}}>{{search.name}}</a></h4>
-      </mat-list-item>
-    </mat-nav-list>
-  </mat-sidenav>
+	<mat-sidenav mode="side" opened="true">
+		<mat-nav-list>
+			<mat-list-item *ngFor="let nav of navItems">
+				<mat-icon mat-list-icon>{{nav.icon}}</mat-icon>
+				<h4 mat-line><a mat-raised-button routerLink={{nav.href}}>{{nav.name}}</a></h4>
+			</mat-list-item>
 
-  <mat-sidenav-content>
-    <router-outlet></router-outlet>
-  </mat-sidenav-content>
+			 <mat-divider></mat-divider>
+
+			<h3 matSubheader>Create</h3>
+
+			<mat-list-item *ngFor="let create of creating">
+	            <!-- mat-icon mat-list-icon>{{create.icon}}</mat-icon -->
+				<h4 mat-line><a mat-raised-button routerLink={{create.href}}>{{create.name}}</a></h4>
+			</mat-list-item>
+
+
+			<mat-divider></mat-divider>
+
+			<h3 matSubheader>Search</h3>
+
+			<mat-list-item *ngFor="let search of searches">
+				<!-- mat-icon mat-list-icon>{{search.icon}}</mat-icon -->
+				<h4 mat-line><a mat-raised-button routerLink={{search.href}}>{{search.name}}</a></h4>
+			</mat-list-item>
+		</mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
 </mat-sidenav-container>
+

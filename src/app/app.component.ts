@@ -18,22 +18,22 @@ export class AppComponent {
 
     searches = [
         {
-            name: 'Dog Search',
+            name: 'Line',
             icon: 'search',
             href: 'sparkline-line'
         },
         {
-            name: 'Meeting Search',
+            name: 'Home',
             icon: 'search',
             href: 'home'
         },
         {
-            name: 'Owner Search',
+            name: 'Home',
             icon: 'search',
             href: ''
         },
         {
-            name: 'Trainer Search',
+            name: 'Line',
             icon: 'search',
             href: 'sparkline-line'
         }
@@ -41,7 +41,7 @@ export class AppComponent {
 
     creating = [
         {
-            name: 'New Meeting',
+            name: 'Home',
             icon: 'create',
             href: ''
         }
