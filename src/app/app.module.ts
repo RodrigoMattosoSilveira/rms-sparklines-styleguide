@@ -73,7 +73,7 @@ import {
         MatToolbarModule,
         MatTooltipModule,
     ],
-    declarations: [LandingPageComponent, SparklineLineComponent]
+    declarations: []
 })
 export class DemoMaterialModule {}
 
@@ -88,21 +88,23 @@ import { SparklineLineComponent } from './components/sparkline-line/sparkline-li
 import {AppRoutingModule} from './app-roouting.module';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-      AppRoutingModule,
-      BrowserModule,
-      BrowserAnimationsModule,
-      FormsModule,
-      HttpModule,
-      HttpClientModule,
-      DemoMaterialModule,
-      MatNativeDateModule,
-      ReactiveFormsModule,
-   ],
+    declarations: [
+        AppComponent,
+        LandingPageComponent,
+        SparklineLineComponent
+    ],
+    imports: [
+        AppRoutingModule,
+        BrowserModule,
+        BrowserAnimationsModule,
+        FormsModule,
+        HttpModule,
+        HttpClientModule,
+        DemoMaterialModule,
+        MatNativeDateModule,
+        ReactiveFormsModule,
+    ],
     providers: [],
-  bootstrap: [AppComponent]
+    bootstrap: [AppComponent]
 })
 export class AppModule { }
