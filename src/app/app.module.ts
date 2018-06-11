@@ -1,7 +1,7 @@
 import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {RouterModule} from '@angular/router';
 
@@ -88,6 +88,9 @@ import { SparklineLineComponent } from './components/sparkline-line/sparkline-li
 import {AppRoutingModule} from './app-roouting.module';
 
 @NgModule({
+    schemas: [
+        CUSTOM_ELEMENTS_SCHEMA
+    ],
     declarations: [
         AppComponent,
         LandingPageComponent,
@@ -102,7 +105,7 @@ import {AppRoutingModule} from './app-roouting.module';
         HttpClientModule,
         DemoMaterialModule,
         MatNativeDateModule,
-        ReactiveFormsModule,
+        ReactiveFormsModule
     ],
     providers: [],
     bootstrap: [AppComponent]

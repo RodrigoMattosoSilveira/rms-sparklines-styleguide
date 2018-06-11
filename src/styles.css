@@ -13,7 +13,17 @@ mat-card {
     max-width: 400px;
 }
 
-.example-header-image {
+.example-header-image.mat-card-avatar {
     background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
     background-size: cover;
+    height: 32px;
+    width: 128px;
+    border-radius: 0%;
+}
+
+.example-header-image.sparkline {
+    background-size: cover;
+    height: 32px;
+    width: 128px;
+    border-radius: 0%;
 }

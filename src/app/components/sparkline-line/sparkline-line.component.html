@@ -1,6 +1,20 @@
 <mat-card class="example-card">
 	<mat-card-header>
-		<div mat-card-avatar class="example-header-image"></div>
+		<!-- div mat-card-avatar class="example-header-image"></div -->
+		<div class="example-header-image sparkline">
+			<rms-sparkline-inline
+					[linepoints]="linePoints"
+					[classname]="className"
+					[width]="width"
+					[height]="height"
+					[linecolor]="lineColor"
+					[linewidth]="lineWidth"
+					[dotradius]="dotRadius"
+					[decorationpoints]="decorationpoints"
+			>
+			</rms-sparkline-inline>
+		</div>
+		<!-- div class="example-header-image sparkline">test</div -->
 		<mat-card-title>Shiba Inu</mat-card-title>
 		<mat-card-subtitle>Dog Breed</mat-card-subtitle>
 	</mat-card-header>
