@@ -10,13 +10,15 @@ import { CommonModule } from '@angular/common';
 
 import { BarchartSparklinesComponent } from './barchart-sparklines.component';
 import { BarchartSimpleSparklineComponent } from './barchart-simple-sparkline/barchart-simple-sparkline.component';
+import { DemoMaterialModule } from '../utils/demo-material/demo-material.module';
 
 @NgModule({
 	schemas: [
 		CUSTOM_ELEMENTS_SCHEMA
 	],
 	imports: [
-		CommonModule
+		CommonModule,
+		DemoMaterialModule
 	],
 	declarations: [
 		BarchartSparklinesComponent,

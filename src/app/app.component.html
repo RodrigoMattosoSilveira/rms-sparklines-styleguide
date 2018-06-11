@@ -12,7 +12,7 @@
 			<h3 matSubheader>Sparkline Types</h3>
 			<mat-list-item *ngFor="let sparkline of sparklines">
 	            <!-- mat-icon mat-list-icon>{{create.icon}}</mat-icon -->
-				<h4 mat-line><a mat-raised-button href={{sparkline.routeLink}}>{{sparkline.name}}</a></h4>
+				<h4 mat-line><a mat-raised-button [routerLink]="sparkline.routeLink">{{sparkline.name}}</a></h4>
 			</mat-list-item>
 
 		</mat-nav-list>

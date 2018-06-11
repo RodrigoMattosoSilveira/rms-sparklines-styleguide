@@ -35,6 +35,7 @@ import {
 } from '@angular/material';
 
 const ANGULAR_MATERIAL_MODULES = [
+	CdkTableModule,
 	MatAutocompleteModule,
 	MatButtonModule,
 	MatButtonToggleModule,

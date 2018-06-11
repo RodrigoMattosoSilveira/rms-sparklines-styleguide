@@ -11,13 +11,15 @@ import { CommonModule } from '@angular/common';
 import { InlineSparklinesComponent} from './inline-sparklines.component';
 import { InlineSimpleSparklineComponent } from './inline-simple-sparkline/inline-simple-sparkline.component';
 import { InlineShadeSparklineComponent } from './inline-shade-sparkline/inline-shade-sparkline.component';
+import { DemoMaterialModule } from '../utils/demo-material/demo-material.module';
 
 @NgModule({
 	schemas: [
 		CUSTOM_ELEMENTS_SCHEMA
 	],
 	imports: [
-		CommonModule
+		CommonModule,
+		DemoMaterialModule
 	],
 	declarations: [
 		InlineSparklinesComponent,

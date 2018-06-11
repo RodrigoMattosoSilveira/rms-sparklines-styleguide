@@ -12,8 +12,9 @@ import { LandingPageComponent } from './components/landing-page/landing-page.com
 
 import { AppRoutingModule } from './app-roouting.module';
 import { DemoMaterialModule } from './utils/demo-material/demo-material.module';
-import { InlineSparklinesModule} from './inline-sparklines/inline-sparlines.module';
-import { BarchartSparklinesModule} from './barchart-sparklines/barchart-sparklines.module';
+import { InlineSparklinesModule } from './inline-sparklines/inline-sparlines.module';
+import { BarchartSparklinesModule } from './barchart-sparklines/barchart-sparklines.module';
+import { MarkdownModule } from 'angular2-markdown';
 
 @NgModule({
 	schemas: [
