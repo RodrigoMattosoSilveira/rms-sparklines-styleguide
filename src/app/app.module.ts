@@ -14,8 +14,6 @@ import { AppComponent } from './app.component';
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
 import { SparklineLineComponent } from './components/sparkline-line/sparkline-line.component';
 import { AppRoutingModule } from './app-roouting.module';
-import { SimpleComponent } from './sparklines/inline/simple/simple.component';
-import { SimpleShaddedComponent } from './sparklines/inline/simple-shadded/simple-shadded.component';
 
 @NgModule({
     schemas: [
