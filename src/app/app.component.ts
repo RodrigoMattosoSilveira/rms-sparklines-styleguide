@@ -10,12 +10,12 @@ export class AppComponent {
 		{
 			name: 'Inline',
 			icon: '',
-			href: 'inline-sparklines'
+			routeLink: 'inline-sparklines'
 		},
 		{
 			name: 'Bar Chart',
 			icon: '',
-			href: 'barchart-sparklines'
+			routeLink: 'barchart-sparklines'
 		}
 	];
 }

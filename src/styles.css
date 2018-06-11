@@ -5,6 +5,25 @@ body {
     margin: 0;
 }
 
+.toolbar-spacer {
+    flex: 1 1 auto;
+}
+
+.example-card {
+    max-width: 400px;
+}
+
+mat-card {
+    margin: 16px 16px 16px 16px;
+}
+
+.example-header-image {
+    background-size: cover;
+    height: 32px;
+    width: 128px;
+    border-radius: 0%;
+}
+
 .sidenav-container {
     position: absolute;
     top: 0;
@@ -12,32 +31,5 @@ body {
     left: 0;
     right: 0;
     background: #eee;
-}
-
-.toolbar-spacer {
-    flex: 1 1 auto;
-}
-
-mat-card {
-    margin: 16px 16px 16px 16px;
-
-}
-
-.example-card {
-    max-width: 400px;
-}
-
-.example-header-image.mat-card-avatar {
-    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
-    background-size: cover;
-    height: 32px;
-    width: 128px;
-    border-radius: 0%;
-}
-
-.example-header-image.sparkline {
-    background-size: cover;
-    height: 32px;
-    width: 128px;
-    border-radius: 0%;
+    height: 600px;
 }
