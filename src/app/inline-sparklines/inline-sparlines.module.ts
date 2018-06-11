@@ -25,4 +25,4 @@ import { InlineShadeSparklineComponent } from './inline-shade-sparkline/inline-s
 		InlineShadeSparklineComponent
 	]
 })
-export class InlineSparlinesModule { }
+export class InlineSparklinesModule { }

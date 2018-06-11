@@ -4,17 +4,15 @@ import { BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
-
 import {HttpModule} from '@angular/http';
 import {HttpClientModule} from '@angular/common/http';
-import { DemoMaterialModule } from './utils/demo-material/demo-material.module';
-
 
 import { AppComponent } from './app.component';
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
-import { AppRoutingModule } from './app-roouting.module';
 
-import { InlineSparlinesModule} from './inline-sparklines/inline-sparlines.module';
+import { AppRoutingModule } from './app-roouting.module';
+import { DemoMaterialModule } from './utils/demo-material/demo-material.module';
+import { InlineSparklinesModule} from './inline-sparklines/inline-sparlines.module';
 import { BarchartSparklinesModule} from './barchart-sparklines/barchart-sparklines.module';
 
 @NgModule({
@@ -35,8 +33,8 @@ import { BarchartSparklinesModule} from './barchart-sparklines/barchart-sparklin
 		DemoMaterialModule,
 		ReactiveFormsModule,
 		DemoMaterialModule,
-		// InlineSparlinesModule,
-		// BarchartSparklinesModule
+		InlineSparklinesModule,
+		BarchartSparklinesModule
 	],
 	providers: [],
 	bootstrap: [AppComponent]

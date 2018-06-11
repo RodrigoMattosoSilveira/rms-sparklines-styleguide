@@ -6,8 +6,8 @@ import {BarchartSparklinesComponent} from './barchart-sparklines/barchart-sparkl
 
 const appRoutes: Routes = [
 	{ path: 'home',                   component: LandingPageComponent },
-	{ path: 'inline-sparklines',      component: LandingPageComponent },
-	{ path: 'barchart-sparklines',      component: LandingPageComponent },
+	{ path: 'inline-sparklines',      component: InlineSparklinesComponent },
+	{ path: 'barchart-sparklines',      component: BarchartSparklinesComponent },
 	{ path: '',   redirectTo: 'home', pathMatch: 'full' },
 	{ path: '**', redirectTo: 'home', pathMatch: 'full'  }
 ];
