@@ -16,7 +16,6 @@ import { InlineShadeSparklineComponent } from './inline-shade-sparkline/inline-s
 	schemas: [
 		CUSTOM_ELEMENTS_SCHEMA
 	],
-
 	imports: [
 		CommonModule
 	],

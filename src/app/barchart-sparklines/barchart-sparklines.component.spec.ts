@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SparklineLineComponent } from './sparkline-line.component';
+import { BarchartSparklinesComponent } from './barchart-sparklines.component';
 
-describe('SparklineLineComponent', () => {
-  let component: SparklineLineComponent;
-  let fixture: ComponentFixture<SparklineLineComponent>;
+describe('BarchartSparklinesComponent', () => {
+  let component: BarchartSparklinesComponent;
+  let fixture: ComponentFixture<BarchartSparklinesComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ SparklineLineComponent ]
+      declarations: [ BarchartSparklinesComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SparklineLineComponent);
+    fixture = TestBed.createComponent(BarchartSparklinesComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
