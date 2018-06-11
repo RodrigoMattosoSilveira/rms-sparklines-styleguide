@@ -3,89 +3,19 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import {RouterModule} from '@angular/router';
 
-import {
-    MatAutocompleteModule,
-    MatButtonModule,
-    MatButtonToggleModule,
-    MatCardModule,
-    MatCheckboxModule,
-    MatChipsModule,
-    MatDatepickerModule,
-    MatDialogModule,
-    MatExpansionModule,
-    MatGridListModule,
-    MatIconModule,
-    MatInputModule,
-    MatListModule,
-    MatMenuModule,
-    MatNativeDateModule,
-    MatPaginatorModule,
-    MatProgressBarModule,
-    MatProgressSpinnerModule,
-    MatRadioModule,
-    MatRippleModule,
-    MatSelectModule,
-    MatSidenavModule,
-    MatSliderModule,
-    MatSlideToggleModule,
-    MatSnackBarModule,
-    MatSortModule,
-    MatTableModule,
-    MatTabsModule,
-    MatToolbarModule,
-    MatTooltipModule,
-    MatStepperModule,
-} from '@angular/material';
-@NgModule({
-    exports: [
-        CdkTableModule,
-        MatAutocompleteModule,
-        MatButtonModule,
-        MatButtonToggleModule,
-        MatCardModule,
-        MatCheckboxModule,
-        MatChipsModule,
-        MatStepperModule,
-        MatDatepickerModule,
-        MatDialogModule,
-        MatExpansionModule,
-        MatGridListModule,
-        MatIconModule,
-        MatInputModule,
-        MatListModule,
-        MatMenuModule,
-        MatNativeDateModule,
-        MatPaginatorModule,
-        MatProgressBarModule,
-        MatProgressSpinnerModule,
-        MatRadioModule,
-        MatRippleModule,
-        MatSelectModule,
-        MatSidenavModule,
-        MatSliderModule,
-        MatSlideToggleModule,
-        MatSnackBarModule,
-        MatSortModule,
-        MatTableModule,
-        MatTabsModule,
-        MatToolbarModule,
-        MatTooltipModule,
-    ],
-    declarations: []
-})
-export class DemoMaterialModule {}
 
 import {HttpModule} from '@angular/http';
 import {HttpClientModule} from '@angular/common/http';
-import {CdkTableModule} from '@angular/cdk/table';
+import { DemoMaterialModule } from './utils/demo-material/demo-material.module';
 
 
 import { AppComponent } from './app.component';
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
 import { SparklineLineComponent } from './components/sparkline-line/sparkline-line.component';
-import {AppRoutingModule} from './app-roouting.module';
+import { AppRoutingModule } from './app-roouting.module';
+import { SimpleComponent } from './sparklines/inline/simple/simple.component';
+import { SimpleShaddedComponent } from './sparklines/inline/simple-shadded/simple-shadded.component';
 
 @NgModule({
     schemas: [
@@ -94,7 +24,9 @@ import {AppRoutingModule} from './app-roouting.module';
     declarations: [
         AppComponent,
         LandingPageComponent,
-        SparklineLineComponent
+        SparklineLineComponent,
+        SimpleComponent,
+        SimpleShaddedComponent
     ],
     imports: [
         AppRoutingModule,
@@ -104,8 +36,8 @@ import {AppRoutingModule} from './app-roouting.module';
         HttpModule,
         HttpClientModule,
         DemoMaterialModule,
-        MatNativeDateModule,
-        ReactiveFormsModule
+        ReactiveFormsModule,
+        DemoMaterialModule
     ],
     providers: [],
     bootstrap: [AppComponent]
