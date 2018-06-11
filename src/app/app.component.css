@@ -1,8 +1,4 @@
-.toolbar-spacer {
-    flex: 1 1 auto;
-}
-
-.sidenav-container {
+.sidenav-_container {
     position: absolute;
     top: 0;
     bottom: 0;

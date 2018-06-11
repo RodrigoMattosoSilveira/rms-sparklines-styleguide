@@ -5,8 +5,13 @@ body {
     margin: 0;
 }
 
+.toolbar-spacer {
+    flex: 1 1 auto;
+}
+
 mat-card {
-    margin: 16px 16px 0px 16px;
+    margin: 16px 16px 16px 16px;
+
 }
 
 .example-card {

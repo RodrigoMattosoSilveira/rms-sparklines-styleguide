@@ -1,7 +1,13 @@
 <mat-card class="example-card">
 	<mat-card-header>
 		<!-- div mat-card-avatar class="example-header-image"></div -->
-		<div class="example-header-image sparkline">
+		<!-- div class="example-header-image sparkline">test</div -->
+		<mat-card-title>Inline</mat-card-title>
+		<mat-card-subtitle>Simple</mat-card-subtitle>
+	</mat-card-header>
+	<!-- img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu" -->
+	<mat-card-content>
+		<p>
 			<rms-sparkline-inline
 					[linepoints]="linePoints"
 					[classname]="className"
@@ -13,21 +19,19 @@
 					[decorationpoints]="decorationpoints"
 			>
 			</rms-sparkline-inline>
-		</div>
-		<!-- div class="example-header-image sparkline">test</div -->
-		<mat-card-title>Shiba Inu</mat-card-title>
-		<mat-card-subtitle>Dog Breed</mat-card-subtitle>
-	</mat-card-header>
-	<img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
-	<mat-card-content>
-		<p>
-			The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
-			A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
-			bred for hunting.
 		</p>
+		<h4>Highlights</h4>
+		<p>The a simple sparkline including the following elements:>
+		<div>
+			<ol>
+				<li>a line</li>
+				<li>optional decorating points, drawn along the line, e.g. min / max / start / end / alert. etc.</li>
+				<li>an optional dropdown shade</li>
+			</ol>
+		</div>
 	</mat-card-content>
 	<mat-card-actions>
-		<button mat-button>LIKE</button>
-		<button mat-button>SHARE</button>
+		<a mat-raised-button href="https://github.com/RodrigoMattosoSilveira/rms-sparklines" target="_blank">Source & README</a>
+		<a mat-raised-button href="https://stackblitz.com/edit/angular-krtbx2?file=src%2Fapp%2Fapp.component.html" target="_blank">Live Example</a>
 	</mat-card-actions>
 </mat-card>

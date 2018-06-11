@@ -14,10 +14,10 @@ export class SparklineLineComponent implements OnInit {
     linePoints: number[] = [4, 3, 7, 8, 1, 4, 9, 2, 5, 3, 5, 5];
 
     // A number giving the width of the sparkline box in pixels.
-    width = 64;
+    width = 128;
 
     // A number giving the height of the sparkline box in pixels. By default, uses the height of the Canvas element.
-    height = 16;
+    height = 32;
 
     // A string giving the color of the sparkline. Any valid CSS color.
     lineColor = 'lightgrey';

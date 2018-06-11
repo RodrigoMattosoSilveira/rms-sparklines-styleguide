@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LandingPageComponent implements OnInit {
 
+  tiles = [
+    {header: 'Inline', sub_header: 'Simple',  cols: 1, rows: 1},
+    {header: 'Inljne', sub_header: 'Shaded',  cols: 1, rows: 2},
+    {header: 'Bar',  sub_header: 'Simple',    cols: 1, rows: 1},
+  ];
+
   constructor() { }
 
   ngOnInit() {
