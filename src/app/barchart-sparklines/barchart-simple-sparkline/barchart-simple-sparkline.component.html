@@ -1,9 +1,9 @@
 <mat-card class="example-card">
 	<mat-card-header>
-		<mat-card-title>Bar chart</mat-card-title>
+		<mat-card-title class="mat-card-title-rms">Bar chart</mat-card-title>
 		<mat-card-subtitle>Simple</mat-card-subtitle>
 	</mat-card-header>
-	<mat-card-content>
+	<mat-card-content  class="mat-card-margin-left">
 		<p>
 			<rms-sparkline-bar-chart
 					[barPoints] = "barPoints"
@@ -18,12 +18,11 @@
 			</rms-sparkline-bar-chart>
 		</p>
 		<h4>Highlights</h4>
-		<p>A simple bar chart sparkline including the following elements:
-		<div>
-			<ol>
-				<li>a bar chart</li>
-			</ol>
-		</div>
+        <markdown ngPreserveWhitespaces>
+            The `rms-sparkline-inline` web component was used to render this sparkline with the following elements:
+
+            1. a sequence of bars representing the numbers on the data set
+        </markdown>
 	</mat-card-content>
 	<mat-card-actions>
 		<a mat-raised-button href="https://github.com/RodrigoMattosoSilveira/rms-sparklines/tree/master/rms-sparkline-bar-chart" target="_blank">Source & README</a>

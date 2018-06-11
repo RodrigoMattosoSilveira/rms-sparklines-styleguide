@@ -32,3 +32,11 @@ mat-card {
     height: 820px;
 
 }
+
+.mat-card-title-rms {
+    font-weight: bold;
+}
+
+.mat-card-margin-left {
+    margin-left: 16px;
+}

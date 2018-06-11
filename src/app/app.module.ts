@@ -5,7 +5,7 @@ import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import {HttpModule} from '@angular/http';
-import {HttpClientModule} from '@angular/common/http';
+import {HttpClient, HttpClientModule} from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
@@ -14,7 +14,7 @@ import { AppRoutingModule } from './app-roouting.module';
 import { DemoMaterialModule } from './utils/demo-material/demo-material.module';
 import { InlineSparklinesModule } from './inline-sparklines/inline-sparlines.module';
 import { BarchartSparklinesModule } from './barchart-sparklines/barchart-sparklines.module';
-import { MarkdownModule } from 'angular2-markdown';
+import { MarkdownModule, MarkedOptions } from 'ngx-markdown';
 
 @NgModule({
 	schemas: [
@@ -32,6 +32,21 @@ import { MarkdownModule } from 'angular2-markdown';
 		HttpModule,
 		HttpClientModule,
 		DemoMaterialModule,
+		MarkdownModule.forRoot({
+			loader: HttpClient, // optional, only if you use [src] attribute
+			markedOptions: {
+				provide: MarkedOptions,
+				useValue: {
+					gfm: true,
+					tables: true,
+					breaks: false,
+					pedantic: false,
+					sanitize: false,
+					smartLists: true,
+					smartypants: false,
+				},
+			},
+		}),
 		ReactiveFormsModule,
 		DemoMaterialModule,
 		InlineSparklinesModule,
