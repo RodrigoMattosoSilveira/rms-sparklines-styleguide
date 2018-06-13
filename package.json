@@ -1,7 +1,7 @@
 {
   "name": "rms-sparkline-styleguide",
   "author": "Rodrigo Silveira",
-  "description": "An Angular application to showcase sparkline web components",
+  "description": "An Angular application to showcase sparkline web components.",
   "version": "0.0.9",
   "license": "MIT",
   "engines": {
