@@ -1,27 +1,9 @@
-# Sparkline
+# Description
+This is a collection of web components to render [sparklines](https://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0001OR), conceived by [Edward Tufte](https://www.edwardtufte.com/tufte/). My motivation for this project is to use web component technology to implement sparklines. The project's overall concepts, but not source code, borrows extensively from [Gareth Watts](https://omnipotent.net/jquery.sparkline/#s-about) jQery project.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
+These webcomponents are built using the [@nutmeg/cli](https://github.com/abraham/nutmeg-cli); this document assumes you are familiar with it and the ancillary technologies required by [@nutmeg/cli](https://github.com/abraham/nutmeg-cli).
 
-## Development server
+### Source code
+Check [rms-sparklines](https://github.com/RodrigoMattosoSilveira/rms-sparklines) for the web components repository.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Check [rms-sparklines-styleguide](https://github.com/RodrigoMattosoSilveira/rms-sparklines-styleguide) for this application's repository, an Angular web application illustrating their usage.
