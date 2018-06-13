@@ -21,7 +21,7 @@ deploy:
   api_key:
       secure: uYx7T87OqQgzQjUU6TueucipYcKL3yFRQKEBPY9YwjfgQHi3WXuCcgZCkF/+C57AuoPSKRYDsWb33sX1xP4GOKYerPbUYZt6bKFoS6ILae0DdreYzDh3wrlA07Poo47YwQxyJCRVuqgG5KOXL5/yfOFjdMAk+/5Yu8uu7XXyG/thG+53S5vkwj8WC/iZ1DvVb4AnEdfY/QwjYagxvtyRZc8WEmF1Rc+a/BX3J7LTxTFKOt4dJKIyUqVzyIbvaNo+LYrEbXSzalx7Yx2cAcQetyjw0m/QvD0GdHs6xNhlp/AjPA+wAKtejVkhvjHbDZvf7TIdkeisRQvQs9aTixmJL5k6/w5yrQlojhCzmmPvxqtCy7wE5jnwWRyC4IOaUM9Vq49VY0ejK/ouMk18YL+K3C9AGR/7G/MMsDThlCm8eonxtzclAA7KaBxojkvSvnZ2kRnzx1IOp4Wa+UmP52P1D6YVEPDxRDo0rlQp4c+aEzvVOLaUpTPA4qw4SnC2c1Z5L8CO/OTDpbOgxLZHS+bQ2+5oqdYzKF6QpKABPWMIiuR/X7B5xL1b3963KjoMc6H2YPc1BGp/qx50K9EtFdtdeuhh6W6/CRRaUjcApPAy/g3N90zps942mqPiZRNY+UmafQsIfGE1DCRUktjyGq4WOjjt3M8yIfLuzkkiC0gCezY=
   skip_cleanup: true
-  email: rodrigomattososilveira@gmail.com
+  email: r3850365@gmai.com@gmail.com
   on:
       repo: RodrigoMattosoSilveira/rms-sparklines-styleguide
 branches:
