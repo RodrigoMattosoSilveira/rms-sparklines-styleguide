@@ -14,6 +14,12 @@ body {
     text-decoration-line: none;
 }
 
+.example-fill-remaining-space {
+    /* This fills the remaining space, by using flexbox.
+       Every toolbar row uses a flexbox row layout. */
+    flex: 1 1 auto;
+}
+
 .example-card {
     max-width: 400px;
 }
@@ -39,4 +45,10 @@ mat-card {
 
 .mat-card-margin-left {
     margin-left: 16px;
+}
+
+
+.example-header-image {
+    background-image: url('./assets/images/Rodrigo_Cropped.png');
+    background-size: cover;
 }
