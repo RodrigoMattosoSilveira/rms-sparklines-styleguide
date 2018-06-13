@@ -1,6 +1,6 @@
 language: node.js
 node_js:
-- '8.11.1'
+- 8.11.1
 script: "./setup.sh"
 sudo: required
 dist: trusty
@@ -8,24 +8,21 @@ addons:
   chrome: stable
 install: npm install
 before_script:
-    - "sudo chown root /opt/google/chrome/chrome-sandbox"
-    - "sudo chmod 4755 /opt/google/chrome/chrome-sandbox"
+- sudo chown root /opt/google/chrome/chrome-sandbox
+- sudo chmod 4755 /opt/google/chrome/chrome-sandbox
 scripts:
-  - ng e2e
-  - ng build --aot -prod
+- ng e2e
+- ng build --aot -prod
 after_script:
-    - chmod +x publish-gh-pages.sh && ./publish-gh-pages.sh
+- chmod +x publish-gh-pages.sh && ./publish-gh-pages.sh
 deploy:
   provider: heroku
   app: rms-sparklines-styleguide
   api_key:
-      secure: uYx7T87OqQgzQjUU6TueucipYcKL3yFRQKEBPY9YwjfgQHi3WXuCcgZCkF/+C57AuoPSKRYDsWb33sX1xP4GOKYerPbUYZt6bKFoS6ILae0DdreYzDh3wrlA07Poo47YwQxyJCRVuqgG5KOXL5/yfOFjdMAk+/5Yu8uu7XXyG/thG+53S5vkwj8WC/iZ1DvVb4AnEdfY/QwjYagxvtyRZc8WEmF1Rc+a/BX3J7LTxTFKOt4dJKIyUqVzyIbvaNo+LYrEbXSzalx7Yx2cAcQetyjw0m/QvD0GdHs6xNhlp/AjPA+wAKtejVkhvjHbDZvf7TIdkeisRQvQs9aTixmJL5k6/w5yrQlojhCzmmPvxqtCy7wE5jnwWRyC4IOaUM9Vq49VY0ejK/ouMk18YL+K3C9AGR/7G/MMsDThlCm8eonxtzclAA7KaBxojkvSvnZ2kRnzx1IOp4Wa+UmP52P1D6YVEPDxRDo0rlQp4c+aEzvVOLaUpTPA4qw4SnC2c1Z5L8CO/OTDpbOgxLZHS+bQ2+5oqdYzKF6QpKABPWMIiuR/X7B5xL1b3963KjoMc6H2YPc1BGp/qx50K9EtFdtdeuhh6W6/CRRaUjcApPAy/g3N90zps942mqPiZRNY+UmafQsIfGE1DCRUktjyGq4WOjjt3M8yIfLuzkkiC0gCezY=
-  skip_cleanup: true
+    secure: Y9uiORJa0v4Uz8IReAZVsYyoYm1i5NOFmBu6zpwCyqktqOwNHQHoHMw+jnp0Jc8kJmcgt9sr3dOCp3zBfeQFJbqD+sRRvrYqVyt8y8uQAmDDeIfyeXBZ3OjoEpWmtvBMmz9IM7l2QQgWrFWr7fAWrqv29YHoRM8oG8SL0TJEIFLy8X5gViNIJi0XNUjPzQ9pkdXaQjvFcDmtI3EmQOA8eQv3ZvDtEeNOymi7fjklftu8SzIvFXOsmutVxlM9B+S6na3ZEnDfvV0xCfczka/n4+NXrtRgmNntcJTp9zCTsNOC/MT/b3IivQdiBEJE4ZJWW2RX7iksZ4fU+aTteWdLiWA4uXRNstJ+i1P1rx5bgiIrcfdMRV169x4hFNi9Sa1SUxXlfXqJx7CVyhGRN27sMvcyg0u4JX9co81oMgyWW1xr6woZP8EnPGc0HmZk/LRcc0pr3PPts3F+47XwfKBBFCB8AzyEwXLBd0FHNqY2SX20mMrDrwb9g5fa28qxAhSufSzMA25DD8arsrZ3UapS+uU9DckVCTEKxPAQcemUqV+1/mLkiohtX6+3LOPVVjOLeYX03WrIStVxrUExr6mB6oyurdavrnGiUwmjFHfljfCqovM1hArEweGhmCZJc6Oj8JRyKwyoZeI/uq/Xm+qmCqFlTKkhM2rsViWOIn8nKC0=
   email: r3850365@gmail.com@gmail.com
   on:
-      repo: RodrigoMattosoSilveira/rms-sparklines-styleguide
+    repo: RodrigoMattosoSilveira/rms-sparklines-styleguide
 branches:
-    only:
-      - master
-
-
+  only:
+  - master
