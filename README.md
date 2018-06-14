@@ -7,3 +7,13 @@ These webcomponents are built using the [@nutmeg/cli](https://github.com/abraham
 Check [rms-sparklines](https://github.com/RodrigoMattosoSilveira/rms-sparklines) for the web components repository.
 
 Check [rms-sparklines-styleguide](https://github.com/RodrigoMattosoSilveira/rms-sparklines-styleguide) for this application's repository, an Angular web application illustrating their usage.
+
+
+# Last but not least
+````html
+ _   _                   _____            
+| | | | __ ___   _____  |  ___|   _ _ __  
+| |_| |/ _` \ \ / / _ \ | |_ | | | | '_ \ 
+|  _  | (_| |\ V /  __/ |  _|| |_| | | | |
+|_| |_|\__,_| \_/ \___| |_|   \__,_|_| |_|                                      
+````
