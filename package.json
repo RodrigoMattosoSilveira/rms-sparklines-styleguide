@@ -32,6 +32,8 @@
     "@angular/platform-browser": "^6.0.0",
     "@angular/platform-browser-dynamic": "^6.0.0",
     "@angular/router": "^6.0.0",
+    "bcrypt": "^2.0.1",
+    "body-parser": "^1.18.3",
     "core-js": "^2.5.4",
     "express": "^4.16.3",
     "ngx-markdown": "^6.0.1",
