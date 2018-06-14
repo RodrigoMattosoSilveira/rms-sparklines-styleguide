@@ -19,7 +19,7 @@ deploy:
   provider: heroku
   app: rms-sparklines-styleguide
   api_key:
-  email: r3850365@gmail.com@gmail.com
+    email: r3850365@gmail.com@gmail.com
   on:
     repo: RodrigoMattosoSilveira/rms-sparklines-styleguide
 branches:
