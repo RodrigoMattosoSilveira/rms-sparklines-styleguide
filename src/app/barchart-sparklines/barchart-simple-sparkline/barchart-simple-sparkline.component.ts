@@ -13,7 +13,6 @@ export class BarchartSimpleSparklineComponent implements OnInit {
 	height = 16;
 	lineColor = 'black';
 	lineWidth = 1;
-	toolTip = false;
 	width = 64;
 
 	constructor() { }
