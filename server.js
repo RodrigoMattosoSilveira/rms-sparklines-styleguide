@@ -10,7 +10,7 @@ const path = require('path');
 const forceSSL = function() {
   return function (req, res, next) {
     if (req.headers['x-forwarded-proto'] !== 'https') {
-        res.set('Content-Security-Policy', "default-src 'self'; connect-src 'self' https://fonts.googleapis.com/icon?family=Material+Icons; frame-src 'self' https://fonts.googleapis.com/icon?family=Material+Icons");
+        res.set('Content-Security-Policy', "default-src 'self'; connect-src 'self' https://fonts.googleapis.com; frame-src 'self' https://fonts.googleapis.com");
       return res.redirect(
         ['https://', req.get('Host'), req.url].join('')
       );
