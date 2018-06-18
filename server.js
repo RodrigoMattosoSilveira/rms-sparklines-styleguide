@@ -8,15 +8,14 @@ const path = require('path');
 // redirect that request to the
 // same url but with HTTPS
 const forceSSL = function() {
-  return function (req, res, next) {
-    if (req.headers['x-forwarded-proto'] !== 'https') {
-        // res.set('Content-Security-Policy', "default-src 'self'; font-src 'self' https://fonts.googleapis.com;");
-      return res.redirect(
-        ['https://', req.get('Host'), req.url].join('')
-      );
+    return function (req, res, next) {
+        if (req.headers['x-forwarded-proto'] !== 'https') {
+            return res.redirect(
+                ['https://', req.get('Host'), req.url].join('')
+            );
+        }
+        next();
     }
-    next();
-  }
 }
 // Instruct the app
 // to use the forceSSL
@@ -25,7 +24,7 @@ app.use(forceSSL());
 
 // Run the app by serving the static files
 // in the dist directory
-app.use(express.static(__dirname + '/dist/sparkline'));
+app.use(express.static(__dirname + '/dist'));
 // Start the app by listening on the default
 // Heroku port
 
@@ -33,11 +32,11 @@ app.use(express.static(__dirname + '/dist/sparkline'));
 // For all GET requests, send back index.html
 // so that PathLocationStrategy can be used
 app.get('/*', function(req, res) {
-  res.sendFile(path.join(__dirname + '/dist/sparkline/index.html'));
+    res.sendFile(path.join(__dirname + '/dist/index.html'));
 });
 
 var server_port = process.env.PORT || 8080;
 var server_host = '0.0.0.0';
 app.listen(server_port, server_host, function() {
-  console.log('Listening on port %d', server_port);
+    console.log('Listening on port %d', server_port);
 });
