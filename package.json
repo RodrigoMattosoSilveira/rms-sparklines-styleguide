@@ -1,16 +1,19 @@
 {
   "name": "rms-sparkline-styleguide",
   "author": "Rodrigo Silveira",
+  "description": "An Angular application to showcase sparkline web components.",
+  "version": "0.0.9",
   "description": "An Angular application to showcase sparkline web components",
   "version": "0.0.10-alpha.4",
   "license": "MIT",
   "engines": {
-    "node": "6.11.1",
-    "npm": "3.10.9"
+    "node": "10.4.1",
+    "npm": "6.1.0"
   },
   "scripts": {
     "ng": "ng",
-    "start": "node server.js",
+    "_start": "ng serve",
+	"start": "node server.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
