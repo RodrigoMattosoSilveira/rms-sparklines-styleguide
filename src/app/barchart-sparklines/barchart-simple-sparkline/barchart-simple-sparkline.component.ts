@@ -7,12 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BarchartSimpleSparklineComponent implements OnInit {
 
-	barPoints: number[] =  [4, 3, 7, 8, 1, 4, 3, 2, 5, 3, 5, 8];
-	className = '';
-	fillColor = 'blue';
+	chartType = 'positive';
+	barHeights: number[] =  [4, 3, 7, 8, 1, 4, 3, 2, 5, 3, 5, 8];
+	minimumBarWidth = 3;
+	barGap = 2;
+	fillColorMinus = 'rgb(255,0,0)';
+	fillColorZero = 'rgb(0,255,0)';
+	fillColorPlus = 'rgb(0,0,255)';
+
+	className = 'bar-chart';
 	height = 16;
-	lineColor = 'black';
-	lineWidth = 1;
 	width = 64;
 
 	constructor() { }

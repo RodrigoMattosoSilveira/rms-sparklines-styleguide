@@ -4,7 +4,7 @@
 # - install packages: $ ./setup.sh
 # - install packages and serve the app: $ ./setup.sh -s
 # - install packages and link rms-sparklines: $ ./setup.sh -l
-# - install packages, link rms-sparklines, and serve the app: $ ./setup.sh -l
+# - install packages, link rms-sparklines, and serve the app: $ ./setup.sh -ls
 
 # Process script arguments and set control variables
 #
