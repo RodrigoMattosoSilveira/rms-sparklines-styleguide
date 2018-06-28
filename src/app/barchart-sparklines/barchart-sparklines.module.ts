@@ -15,6 +15,7 @@ import {MarkdownModule, MarkedOptions} from 'ngx-markdown';
 import {HttpClient} from '@angular/common/http';
 import { BarchartSparklineNegativeComponent } from './barchart-sparkline-negative/barchart-sparkline-negative.component';
 import { BarchartSparklineDualComponent } from './barchart-sparkline-dual/barchart-sparkline-dual.component';
+import { BarchartSparklineTriComponent } from './barchart-sparkline-tri/barchart-sparkline-tri.component';
 
 @NgModule({
 	schemas: [
@@ -44,6 +45,7 @@ import { BarchartSparklineDualComponent } from './barchart-sparkline-dual/barcha
 		BarchartSimpleSparklineComponent,
 		BarchartSparklineNegativeComponent,
 		BarchartSparklineDualComponent,
+		BarchartSparklineTriComponent,
 	]
 })
 export class BarchartSparklinesModule { }

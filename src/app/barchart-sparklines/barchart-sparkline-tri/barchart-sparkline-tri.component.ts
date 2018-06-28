@@ -1,14 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 
-@Component({    selector: 'app-barchart-sparkline-dual',
-	templateUrl: './barchart-sparkline-dual.component.html',
-	styleUrls: ['./barchart-sparkline-dual.component.css']
+@Component({
+	selector: 'app-barchart-sparkline-tri',
+	templateUrl: './barchart-sparkline-tri.component.html',
+	styleUrls: ['./barchart-sparkline-tri.component.css']
 })
-export class BarchartSparklineDualComponent implements OnInit {
+export class BarchartSparklineTriComponent implements OnInit {
 
-	chartType = 'dual';
+	chartType = 'tri';
 	// barHeights: number[] =  [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12];
-	barHeights: number[] =  [-4, 3, -7, -8, -1, 1, 3, -2, -5, 3, -5, 8];
+	barHeights: number[] =  [-4, 3, 0, -8, -1, 1, 3, 0, -5, 0, -5, 8];
 	minimumBarWidth = 3;
 	barGap = 6;
 	fillColorMinus = 'rgb(255,0,0)';
