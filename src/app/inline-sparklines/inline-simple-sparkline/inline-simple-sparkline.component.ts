@@ -29,7 +29,7 @@ export class InlineSimpleSparklineComponent implements OnInit {
 	dotRadius = 1.5;
 
 	// adding the start and end points
-	decorationpoints = [{index: 0, color: 'red'}, {index: 11, color: 'black'}];
+	decorationpoints = [];
 
 	constructor() { }
 	ngOnInit() {
