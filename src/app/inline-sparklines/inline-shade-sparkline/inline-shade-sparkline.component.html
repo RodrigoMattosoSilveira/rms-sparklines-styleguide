@@ -1,11 +1,21 @@
+<!--
+  ~ Copyright <2018> <Rodrigo Silveira>
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+  -->
+
 <mat-card class="example-card">
-  <mat-card-header>
-    <mat-card-title>Inline</mat-card-title>
-    <mat-card-subtitle>Shade</mat-card-subtitle>
-  </mat-card-header>
-  <mat-card-content>
-    <p>
-      <rms-sparkline-inline
+    <mat-card-header>
+        <mat-card-title class="mat-card-title-rms">Sparline type: Line</mat-card-title>
+        <mat-card-subtitle>Chart type: shade</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+        <p>
+          <rms-sparkline-inline
               [linepoints]="linePoints"
               [classname]="className"
               [width]="width"
@@ -14,22 +24,17 @@
               [linewidth]="lineWidth"
               [dotradius]="dotRadius"
               [shadecolor]="shadeColor"
-      >
-      </rms-sparkline-inline>
-    </p>
-    <h4>Highlights</h4>
-      <markdown ngPreserveWhitespaces>
-          The `rms-sparkline-inline` web component was used to render this sparkline with the following elements:
+          >
+          </rms-sparkline-inline>
+        </p>
+        <h4>Highlights</h4>
+          <markdown ngPreserveWhitespaces>
+              The `rms-sparkline-inline` web component was used to render this sparkline.
+          </markdown>
 
-          1. a line
-          1. a drop down shade
-          1. decorating points not shown
-      </markdown>
-
-  </mat-card-content>
-  <mat-card-actions>
+    </mat-card-content>
+    <mat-card-actions>
     <a mat-raised-button href="https://github.com/RodrigoMattosoSilveira/rms-sparklines/tree/master/rms-sparkline-inline" target="_blank">Source & README</a>
-    <a mat-raised-button href="https://stackblitz.com/edit/rms-sparklines-inline-drop-shadow" target="_blank">Live Example</a>
-  </mat-card-actions>
+    </mat-card-actions>
 </mat-card>
 <!-- div>rms-sparkline-inline shaded</div -->
