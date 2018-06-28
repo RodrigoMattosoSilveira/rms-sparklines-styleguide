@@ -10,34 +10,31 @@
 
 <mat-card class="example-card">
 	<mat-card-header>
-		<mat-card-title class="mat-card-title-rms">Bar chart</mat-card-title>
-		<mat-card-subtitle>Simple</mat-card-subtitle>
+		<mat-card-title class="mat-card-title-rms">Sparkline type: Bar chart</mat-card-title>
+		<mat-card-subtitle>Chart type: Positive</mat-card-subtitle>
 	</mat-card-header>
-	<mat-card-content  class="mat-card-margin-left">
+	<mat-card-content>
 		<p>
 			<rms-sparkline-bar-chart
-                    [chartType] = "chartType"
-                    [barHeights] = "barHeights"
-                    [minimumBarWidth] = "minimumBarWidth"
-                    [barGap] = "barGap"
-                    [fillColorPlus] = "fillColorPlus"
-                    [fillColorZero] = "fillColorZero"
-                    [fillColorMinus] = "fillColorMinus"
-                    [className] = "className"
-                    [height] = "height"
-                    [width] = "width"
+                [chartType] = "chartType"
+                [barHeights] = "barHeights"
+                [minimumBarWidth] = "minimumBarWidth"
+                [barGap] = "barGap"
+                [fillColorPlus] = "fillColorPlus"
+                [fillColorZero] = "fillColorZero"
+                [fillColorMinus] = "fillColorMinus"
+                [className] = "className"
+                [height] = "height"
+                [width] = "width"
 			>
 			</rms-sparkline-bar-chart>
 		</p>
 		<h4>Highlights</h4>
         <markdown ngPreserveWhitespaces>
-            The `rms-sparkline-inline` web component was used to render this sparkline with the following elements:
-
-            1. a sequence of bars representing the numbers on the data set
+            The `rms-sparkline-bar-chart` web component was used to render this sparkline.
         </markdown>
 	</mat-card-content>
 	<mat-card-actions>
 		<a mat-raised-button href="https://github.com/RodrigoMattosoSilveira/rms-sparklines/tree/master/rms-sparkline-bar-chart" target="_blank">Source & README</a>
-		<a mat-raised-button href="https://stackblitz.com/edit/rms-sparklines-bar-chart-simple" target="_blank">Live Example</a>
 	</mat-card-actions>
 </mat-card>
