@@ -13,6 +13,7 @@ import { BarchartSimpleSparklineComponent } from './barchart-simple-sparkline/ba
 import { DemoMaterialModule } from '../utils/demo-material/demo-material.module';
 import {MarkdownModule, MarkedOptions} from 'ngx-markdown';
 import {HttpClient} from '@angular/common/http';
+import { BarchartSparklineNegativeComponent } from './barchart-sparkline-negative/barchart-sparkline-negative.component';
 
 @NgModule({
 	schemas: [
@@ -40,6 +41,7 @@ import {HttpClient} from '@angular/common/http';
 	declarations: [
 		BarchartSparklinesComponent,
 		BarchartSimpleSparklineComponent,
+		BarchartSparklineNegativeComponent,
 	]
 })
 export class BarchartSparklinesModule { }

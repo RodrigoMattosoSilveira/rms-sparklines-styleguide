@@ -14,6 +14,7 @@ import { InlineShadeSparklineComponent } from './inline-shade-sparkline/inline-s
 import { DemoMaterialModule } from '../utils/demo-material/demo-material.module';
 import {MarkdownModule, MarkedOptions} from 'ngx-markdown';
 import {HttpClient} from '@angular/common/http';
+import { LineDecoratedSparklineComponent } from './line-decorated-sparkline/line-decorated-sparkline.component';
 
 @NgModule({
 	schemas: [
@@ -41,7 +42,8 @@ import {HttpClient} from '@angular/common/http';
 	declarations: [
 		InlineSparklinesComponent,
 		InlineSimpleSparklineComponent,
-		InlineShadeSparklineComponent
+		InlineShadeSparklineComponent,
+		LineDecoratedSparklineComponent
 	]
 })
 export class InlineSparklinesModule { }
