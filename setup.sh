@@ -37,7 +37,7 @@ npm install --ignore-scripts
 
 if [ $link = "yes" ];
   then
-    echo "Linking rms-sparkline"
+    echo "Linking rms-sparkline-styleguide"
     npm link ../rms-sparklines/
   else
     echo "We WILL NOT link rms-sparkline"
@@ -45,8 +45,8 @@ fi
 
 if [ $serve = "yes" ];
   then
-    echo "Serving rms-sparkline"
+    echo "Serving rms-sparkline-styleguidee"
     ng serve
   else
-    echo "We WILL NOT serve rms-sparkline"
+    echo "We WILL NOT serve rms-sparkline-styleguide"
 fi
