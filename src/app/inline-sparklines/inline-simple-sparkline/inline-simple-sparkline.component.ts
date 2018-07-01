@@ -20,7 +20,7 @@ export class InlineSimpleSparklineComponent implements OnInit {
 	height = 32;
 
 	// A string giving the color of the sparkline. Any valid CSS color.
-	lineColor = 'lightgrey';
+	lineColor = 'darkGrey';
 
 	// A number giving the stroke of the line in pixels.
 	lineWidth = 1;

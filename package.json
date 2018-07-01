@@ -2,7 +2,7 @@
   "name": "rms-sparkline-styleguide",
   "author": "Rodrigo Silveira",
   "description": "An Angular application to showcase sparkline web components",
-  "version": "0.1.00",
+  "version": "0.1.2",
   "license": "MIT",
   "engines": {
     "node": "10.4.1",
@@ -36,7 +36,7 @@
     "core-js": "^2.5.7",
     "express": "^4.16.3",
     "ngx-markdown": "^6.0.1",
-    "rms-sparklines": "0.1.1",
+    "rms-sparklines": "0.1.2",
     "rxjs": "^6.0.0",
     "zone.js": "^0.8.26"
   },
