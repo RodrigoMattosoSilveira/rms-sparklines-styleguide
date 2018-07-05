@@ -16,6 +16,11 @@ export class AppComponent {
 			name: 'Bar Chart',
 			icon: '',
 			routeLink: 'barchart-sparklines'
+		},
+		{
+			name: 'Box plot Chart',
+			icon: '',
+			routeLink: 'boxplot-sparklines'
 		}
 	];
 }

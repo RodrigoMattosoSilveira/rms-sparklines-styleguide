@@ -14,6 +14,7 @@ import { AppRoutingModule } from './app-roouting.module';
 import { DemoMaterialModule } from './utils/demo-material/demo-material.module';
 import { InlineSparklinesModule } from './inline-sparklines/inline-sparlines.module';
 import { BarchartSparklinesModule } from './barchart-sparklines/barchart-sparklines.module';
+import { BoxplotSparklinesModule } from './boxplot-sparklines/boxplot-sparklines.module';
 import { MarkdownModule, MarkedOptions } from 'ngx-markdown';
 
 @NgModule({
@@ -50,7 +51,8 @@ import { MarkdownModule, MarkedOptions } from 'ngx-markdown';
 		ReactiveFormsModule,
 		DemoMaterialModule,
 		InlineSparklinesModule,
-		BarchartSparklinesModule
+		BarchartSparklinesModule,
+		BoxplotSparklinesModule
 	],
 	providers: [],
 	bootstrap: [AppComponent]
