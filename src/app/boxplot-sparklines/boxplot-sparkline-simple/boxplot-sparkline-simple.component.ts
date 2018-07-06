@@ -11,6 +11,7 @@ export class BoxplotSparklineSimpleComponent implements OnInit {
 	axisLineWidth = 1;
 	chartType = 'simple';
 	className = '';
+	drawingMethod = 'canvas';
 	height = '32';
 	highWhiskerColor  = 'black';
 	highWhiskerLineWidth = 1;
