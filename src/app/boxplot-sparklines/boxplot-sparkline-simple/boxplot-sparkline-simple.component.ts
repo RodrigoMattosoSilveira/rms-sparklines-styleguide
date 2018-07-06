@@ -16,13 +16,13 @@ export class BoxplotSparklineSimpleComponent implements OnInit {
 	highWhiskerLineWidth = 1;
 	interQuartileRangeColor = 'black';
 	interQuartileRangeLineWidth = 1;
+	interQuartileRangeFillColor = 'lightBlue';
 	lowWhiskerColor = 'black';
 	lowWhiskerLineWidth = 1;
-	medianColor = 'black';
-	medianLineWidth = 1;
+	medianColor = 'red';
+	medianLineWidth = 2;
 	population = JSON.stringify([1, 2, 3, 4]);
 	width = 64;
-
 	constructor() { }
 
 	ngOnInit() {}
