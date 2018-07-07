@@ -15,7 +15,7 @@ export class BoxplotSparklineSimpleComponent implements OnInit {
 	height = '32';
 	highWhiskerColor  = 'black';
 	highWhiskerLineWidth = 1;
-	interQuartileRangeColor = 'black';
+	interQuartileRangeLineColor = 'black';
 	interQuartileRangeLineWidth = 1;
 	interQuartileRangeFillColor = 'lightBlue';
 	lowWhiskerColor = 'black';
