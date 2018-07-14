@@ -8,8 +8,8 @@ Check [rms-sparklines](https://github.com/RodrigoMattosoSilveira/rms-sparklines)
 
 Check [rms-sparklines-styleguide](https://github.com/RodrigoMattosoSilveira/rms-sparklines-styleguide) for this application's repository, an Angular web application illustrating their usage.
 
-# New in version 0.2.0-alpha.2
-* consolidating all utility classes in uti-lib
+## Latest on version [0.2.0-alpha.3]
+* Implementing shadow dom creation best practices
 
 # Last but not least
 ````html
