@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import {CdkTableModule} from '@angular/cdk/table';
 
 import {
 	MatAutocompleteModule,
@@ -69,8 +70,6 @@ const ANGULAR_MATERIAL_MODULES = [
 	MatStepperModule,
 
 ];
-
-import {CdkTableModule} from '@angular/cdk/table';
 
 @NgModule({
 	imports: ANGULAR_MATERIAL_MODULES,

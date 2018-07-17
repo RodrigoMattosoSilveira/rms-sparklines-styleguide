@@ -9,7 +9,7 @@ Check [rms-sparklines](https://github.com/RodrigoMattosoSilveira/rms-sparklines)
 Check [rms-sparklines-styleguide](https://github.com/RodrigoMattosoSilveira/rms-sparklines-styleguide) for this application's repository, an Angular web application illustrating their usage.
 
 # New in version 0.2.0-alpha.3
-* refactored to generate bar-chart according to Web Component best practices
+* Refactored to generate all components according to Web Component best practices for structures; more work required to comply with all recommendations.
 
 # Last but not least
 ````html

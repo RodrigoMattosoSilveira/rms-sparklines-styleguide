@@ -5,13 +5,13 @@
  *
  */
 
-import { InlineSparlinesModule } from './inline-sparlines.module';
+import { InlineSparklinesModule } from './inline-sparlines.module';
 
 describe('InlineSparlinesModule', () => {
-  let inlineSparlinesModule: InlineSparlinesModule;
+  let inlineSparlinesModule: InlineSparklinesModule;
 
   beforeEach(() => {
-    inlineSparlinesModule = new InlineSparlinesModule();
+    inlineSparlinesModule = new InlineSparklinesModule();
   });
 
   it('should create an instance', () => {
