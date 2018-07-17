@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class BarchartSimpleSparklineComponent implements OnInit {
 
 	chartType = 'positive';
-	barHeights: number[] =  [4, 3, 7, 8, 1, 4, 3, 2, 5, 3, 5, 8];
+	barHeights: string =  JSON.stringify([4, 3, 7, 8, 1, 4, 3, 2, 5, 3, 5, 8]);
 	minimumBarWidth = 3;
 	barGap = 6;
 	fillColorMinus = 'rgb(255,0,0)';
