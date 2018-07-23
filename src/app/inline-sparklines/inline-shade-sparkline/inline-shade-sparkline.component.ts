@@ -11,7 +11,7 @@ export class InlineShadeSparklineComponent implements OnInit {
 	className = '';
 
 	// adding the start and end points
-	decorationpoints = JSON.stringify([]);
+	decorationPoints = JSON.stringify([]);
 
 	// A number giving the size of the dots used to mark important values.
 	dotRadius = 0;
@@ -32,7 +32,7 @@ export class InlineShadeSparklineComponent implements OnInit {
 	width = 128;
 
 	// A string giving the color of the dot marking the highest value. Any valid CSS color.
-	shadeColor = `#d0e8f2`;
+	shadeColor = `LightBlue`;
 
 	constructor() { }
 

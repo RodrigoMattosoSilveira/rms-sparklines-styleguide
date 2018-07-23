@@ -11,7 +11,7 @@ export class LineDecoratedSparklineComponent implements OnInit {
 	className = '';
 
 	// adding the start and end points
-	decorationpoints = JSON.stringify([{index: 0, color: 'red'}, {index: 11, color: 'black'}]);
+	decorationPoints = JSON.stringify([{index: 0, color: 'red'}, {index: 11, color: 'black'}]);
 
 	// A number giving the size of the dots used to mark important values.
 	dotRadius = 1.5;
@@ -29,7 +29,7 @@ export class LineDecoratedSparklineComponent implements OnInit {
 	lineWidth = 1.5;
 
 	// A string giving the color of the dot marking the highest value. Any valid CSS color.
-	shadeColor = `LightBlue`;
+	shadeColor = ``;
 
 	// A number giving the width of the sparkline box in pixels.
 	width = 128;
