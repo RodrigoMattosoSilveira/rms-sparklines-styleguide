@@ -23,7 +23,7 @@ export class InlineShadeSparklineComponent implements OnInit {
 	lineColor = 'black';
 
 	// The sparkline data source
-	linePoints = JSON.stringify([4, 3, 7, 8, 1, 4, 9, 2, 5, 3, 5, 9]);
+	linePoints = JSON.stringify([4, 3, 7, 8, 1, 4, 9, 2, 5, 3, 5, 11]);
 
 	// A number giving the stroke of the line in pixels.
 	lineWidth = 1.5;
