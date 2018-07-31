@@ -8,11 +8,9 @@ Check [rms-sparklines](https://github.com/RodrigoMattosoSilveira/rms-sparklines)
 
 Check [rms-sparklines-styleguide](https://github.com/RodrigoMattosoSilveira/rms-sparklines-styleguide) for this application's repository, an Angular web application illustrating their usage.
 
-# New in version [0.2.0-alpha.5]
-## Added
-* support for tooltips on rms-sparkline-inline
-## Changed
-* Fixed bugs with inline
+# New in version [0.2.0-alpha.6]
+### Added
+* support for tooltips on rms-sparkline-boxplot
 
 # Last but not least
 ````html
