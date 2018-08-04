@@ -8,8 +8,8 @@ Check [rms-sparklines](https://github.com/RodrigoMattosoSilveira/rms-sparklines)
 
 Check [rms-sparklines-styleguide](https://github.com/RodrigoMattosoSilveira/rms-sparklines-styleguide) for this application's repository, an Angular web application illustrating their usage.
 
-### New in version [0.2.0-alpha.7]
-* Fixed tooltip bug on the inline and box plot sparklines.
+### New in version [0.2.0-alpha.8]
+* Fixed tooltip bug on inline and boxplot sparklines, where tooltips are not removed after moving away from the tooltip zone, while still withing the canvas area.
 
 # Last but not least
 ````html
