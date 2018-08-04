@@ -1,6 +1,10 @@
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [0.2.0-alpha.7] - 2018-08-03
+#### Changed
+* Fixed tooltip bug on inline and boxplot sparklines
+
 ## [0.2.0-alpha.6] - 2018-07-30
 #### Added
 * support for tooltips on rms-sparkline-boxplot
