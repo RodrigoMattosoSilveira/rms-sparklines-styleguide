@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-	version =  `0.2.0-alpha.8`;
+	version =  `0.2.0-alpha.9`;
 	sparklines = [
 		{
 			name: 'Inline',
