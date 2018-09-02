@@ -9,6 +9,8 @@ Check [rms-sparklines](https://github.com/RodrigoMattosoSilveira/rms-sparklines)
 Check [rms-sparklines-styleguide](https://github.com/RodrigoMattosoSilveira/rms-sparklines-styleguide) for this application's repository, an Angular web application illustrating their usage.
 
 ### New in version
+####  [0.2.3] - 2018-09-03
+* Trying to fix a hard to understand bug in TRAVIS
 ####  [0.2.2] - 2018-09-01
 * Trying to fix a hard to understand bug in TRAVIS
 ####  [0.2.1] - 2018-09-01
