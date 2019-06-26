@@ -5,7 +5,6 @@ import {MarkdownModule, MarkedOptions} from 'ngx-markdown';
 import {HttpClient} from '@angular/common/http';
 import { BoxplotSparklineSimpleComponent } from './boxplot-sparkline-simple/boxplot-sparkline-simple.component';
 import { BoxplotSparklinesComponent } from './boxplot-sparklines.component';
-import { BoxplotSparklineSimpleSvgComponent } from './boxplot-sparkline-simple-svg/boxplot-sparkline-simple-svg.component';
 import { SparklinesModule } from '@rmstek/sparklines';
 
 @NgModule({
@@ -35,7 +34,6 @@ import { SparklinesModule } from '@rmstek/sparklines';
 	declarations: [
 		BoxplotSparklineSimpleComponent,
 		BoxplotSparklinesComponent,
-		BoxplotSparklineSimpleSvgComponent
 	]
 })
 export class BoxplotSparklinesModule { }
