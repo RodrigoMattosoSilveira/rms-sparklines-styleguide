@@ -6,6 +6,7 @@ import {HttpClient} from '@angular/common/http';
 import { BoxplotSparklineSimpleComponent } from './boxplot-sparkline-simple/boxplot-sparkline-simple.component';
 import { BoxplotSparklinesComponent } from './boxplot-sparklines.component';
 import { BoxplotSparklineSimpleSvgComponent } from './boxplot-sparkline-simple-svg/boxplot-sparkline-simple-svg.component';
+import { SparklinesModule } from '@rmstek/sparklines';
 
 @NgModule({
 	schemas: [
@@ -29,6 +30,7 @@ import { BoxplotSparklineSimpleSvgComponent } from './boxplot-sparkline-simple-s
 				},
 			},
 		}),
+		SparklinesModule,
 	],
 	declarations: [
 		BoxplotSparklineSimpleComponent,

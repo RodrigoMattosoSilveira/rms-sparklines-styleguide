@@ -10,6 +10,7 @@ import {HttpClient} from '@angular/common/http';
 import { BarchartSparklineNegativeComponent } from './barchart-sparkline-negative/barchart-sparkline-negative.component';
 import { BarchartSparklineDualComponent } from './barchart-sparkline-dual/barchart-sparkline-dual.component';
 import { BarchartSparklineTriComponent } from './barchart-sparkline-tri/barchart-sparkline-tri.component';
+import { SparklinesModule } from '@rmstek/sparklines';
 
 @NgModule({
 	schemas: [
@@ -33,6 +34,7 @@ import { BarchartSparklineTriComponent } from './barchart-sparkline-tri/barchart
 				},
 			},
 		}),
+		SparklinesModule,
 	],
 	declarations: [
 		BarchartSparklinesComponent,

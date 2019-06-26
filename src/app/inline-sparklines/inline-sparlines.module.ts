@@ -15,6 +15,7 @@ import { DemoMaterialModule } from '../utils/demo-material/demo-material.module'
 import {MarkdownModule, MarkedOptions} from 'ngx-markdown';
 import {HttpClient} from '@angular/common/http';
 import { LineDecoratedSparklineComponent } from './line-decorated-sparkline/line-decorated-sparkline.component';
+import { SparklinesModule } from '@rmstek/sparklines';
 
 @NgModule({
 	schemas: [
@@ -38,6 +39,7 @@ import { LineDecoratedSparklineComponent } from './line-decorated-sparkline/line
 				},
 			},
 		}),
+		SparklinesModule,
 	],
 	declarations: [
 		InlineSparklinesComponent,

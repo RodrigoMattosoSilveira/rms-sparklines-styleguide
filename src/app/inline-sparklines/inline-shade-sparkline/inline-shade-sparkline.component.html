@@ -15,18 +15,18 @@
     </mat-card-header>
     <mat-card-content>
         <p>
-          <rms-sparkline-inline
-                  [className]="className"
-                  [decorationpoints]="decorationPoints"
-                  [dotradius]="dotRadius"
-                  [linecolor]="lineColor"
-                  [linepoints]="linePoints"
-                  [linewidth]="lineWidth"
-                  [height]="height"
-                  [shadecolor]="shadeColor"
-                  [width]="width"
+          <rms-spark-line
+             [className] = "className"
+             [decorationPoints] = "decorationPoints"
+             [dotRadius] = "dotRadius"
+             [height] = "height"
+             [lineColor] = "lineColor"
+             [linePoints] = "linePoints"
+             [lineWidth] = "lineWidth"
+             [shadeColor] = "shadeColor"
+             [width] = "width"
            >
-          </rms-sparkline-inline>
+          </rms-spark-line>
         </p>
         <h4>Highlights</h4>
           <markdown ngPreserveWhitespaces>
